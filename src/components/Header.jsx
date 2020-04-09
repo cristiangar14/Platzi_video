@@ -13,7 +13,8 @@ const Header = (props) => {
 
   const handleLogout = () => {
     props.logoutRequest({});
-  }
+  };
+
   return (
     <header className='header'>
       <Link to='/'>
